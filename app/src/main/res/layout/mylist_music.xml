@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#64439A "
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:text="My Playlist"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName12"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName12"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName12"
+        app:srcCompat="@drawable/tai_nghe" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:background="@drawable/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/trangChu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName13"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13"
+        app:srcCompat="@drawable/trang_chu" />
+
+    <ImageView
+        android:id="@+id/accountMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName13"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName13"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13"
+        app:srcCompat="@drawable/account" />
+
+    <ImageView
+        android:id="@+id/searchMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName13"
+        app:layout_constraintStart_toEndOf="@+id/trangChu"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/tymMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName13"
+        app:layout_constraintEnd_toStartOf="@+id/accountMusic"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13"
+        app:srcCompat="@drawable/tym" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvView"
+        android:layout_width="409dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

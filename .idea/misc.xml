@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/drawable/border_button.xml" value="0.118" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/drawable/border_edittext.xml" value="0.118" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/drawable/design_pic.xml" value="0.118" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/drawable/menu_bar.xml" value="0.118" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/layout/login_music.xml" value="0.22" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/layout/mylist_music.xml" value="0.184375" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/layout/myplaylist_music.xml" value="0.184375" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/layout/recycleview_music.xml" value="0.22" />
+        <entry key="..\:/MyMusic_Nhom6/app/src/main/res/layout/sign_up_music.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
