@@ -11,4 +11,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mylist_music);
     }
+    
+    
+    
+    
+    public String viewHomePage(Model model) {
+        model.addAttribute("listMusic", musicService.getAllMusic());
+        return "index";
+    }
+    
+    
+    
 }
